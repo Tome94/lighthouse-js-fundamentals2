@@ -1,13 +1,11 @@
 const raining = false
 const cold = false
+const isCitizen = true
+const age = 17
 
-if (raining){
-  console.log ("Don't forget your unbrella");
+if (isCitizen && age >= 18){
+  console.log ("you can vote!")
 }
-
-if (cold){
-  console.log ("Make sure to pick out a scraf!");
-}
-else{
-console.log ("now you're ready to go outside!")
+else {
+  console.log ("you can't vote")
 }
