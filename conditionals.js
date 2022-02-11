@@ -1,11 +1,11 @@
-const raining = false
-const cold = false
-const isCitizen = true
 const age = 17
 
-if (isCitizen && age >= 18){
-  console.log ("you can vote!")
+if (age < 13){
+  console.log ("elementary");
+}
+else if (age > 13 || age < 18){
+  console.log ("secondary");
 }
 else {
-  console.log ("you can't vote")
+  console.log ("lighthouse labs");
 }
