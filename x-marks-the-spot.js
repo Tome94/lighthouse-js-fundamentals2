@@ -20,6 +20,8 @@ for (const move of moves){
 return [x ,y]
 }
 console.log (finalPosition (moves))
+const moves = ['north', 'north', 'west', 'west', 'north', 'east', 'south']
+console.log (finalPosition (moves))
 
 /*
 function printGrid(x ,y){
